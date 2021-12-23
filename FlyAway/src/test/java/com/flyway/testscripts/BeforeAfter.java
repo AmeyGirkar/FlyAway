@@ -15,7 +15,7 @@ public class BeforeAfter extends Tools {
 		
 		//driver.get("http://localhost:9090/FlyAway/home");
 		// Tomcat server on aws
-		driver.get("http://174.129.180.167:8080/FlyAway/");
+		driver.get("http://3.84.30.56:8080/FlyAway/");
 	}
 
 	@After
