@@ -18,7 +18,7 @@ public class Driver  extends Tools{
 	protected static EditPage editPage;
 	
 public static void init(){
-	System.setProperty("webdriver.chrome.driver", "resources//chromedriver.exe");
+	//System.setProperty("webdriver.chrome.driver", "resources//chromedriver.exe");
 	driver = new ChromeDriver();
 	homePage =new HomePage(driver);
 	loginPage =new LoginPage(driver);
